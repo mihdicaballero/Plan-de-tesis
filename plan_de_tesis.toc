@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Fundamentación y Justificación del Tema Elegido}{1}{section.1}%
+\contentsline {section}{\numberline {2}Estado del Arte}{1}{section.2}%
+\contentsline {section}{\numberline {3}Objetivos del Trabajo de Tesis}{1}{section.3}%
+\contentsline {section}{\numberline {4}Actividades y Metodología de Desarrollo}{1}{section.4}%
+\contentsline {section}{\numberline {5}Cronograma}{1}{section.5}%
+\contentsline {section}{\numberline {6}Condiciones Institucionales para el Desarrollo de la Tesis}{1}{section.6}%
+\contentsline {section}{Bibliográfía}{1}{section.6}%

@@ -1,0 +1,53 @@
+%%---------------------------------------------------------------------
+% 
+% Los siguientes campos deben ser provistos en el documento principal
+%
+% \ApunteTecnicoTitulo: título del apunte en ESPAÑOL
+% \ApunteTecnicoNo: número de apunte en formato ## (ej. 01)
+% \Version: número de versión del apunte #.#.# (ej 1.0.0)
+% \Dia, \Mes, \Anio: fecha de publicación
+%
+%%---------------------------------------------------------------------
+
+%titlepage
+\thispagestyle{empty}
+\begin{center}
+\begin{minipage}{0.75\linewidth}
+    \centering
+%University logo
+    \includegraphics[width=0.8\textwidth]{imagenes/logo.jpg}\par
+
+    \vspace{2cm}
+	{\scshape\Large Maestría en Ingeniería Estructural \par}
+	\vspace{2cm}
+	{\scshape\Large Plan de Tesis \par}
+    \vspace{0.5cm}
+     
+%%---------------------------------------------------------------------
+% Información del título
+%%----------------------------------------------------------------------
+
+{\huge\bfseries \TituloTesis\par}
+
+    \vspace{3cm}
+
+%%---------------------------------------------------------------------
+% Información del autor
+%%----------------------------------------------------------------------
+%Author's name
+    {\LARGE\bfseries \Tesista\par}
+    \vspace{2cm}
+%Degree
+    {\large Director: \Director \par}
+    \ifthenelse {\isundefined{\Codirector}}{}{\large Codirector: \Codirector \par}
+    \vspace{1cm}
+    
+%%---------------------------------------------------------------------
+% Información de fecha de publicación
+%%----------------------------------------------------------------------
+
+{\normalsize \Dia \, \Mes \, \Anio}
+
+\end{minipage}
+\end{center}
+\clearpage

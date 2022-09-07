@@ -1,0 +1,56 @@
+% *****************************************************************************
+% **************************** Preámbulo ********************************
+
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} %Definición de márgenes
+%\usepackage{titling}  %para configurar título en pagina de tapa
+\usepackage{authblk}  %para configurar nombres y afiliaciones de autores
+\usepackage{parskip}  %para separar parrafos con línea en blanco
+\parskip=6pt          % se adopta separación de 6pt entre parrafos
+%este paquete además setea a cero la indentación
+
+\usepackage{setspace} %separacion entre líneas de texto (\doublespacing or \onehalfspacing)
+\onehalfspacing       %para reportes adoptamos espaciado 1y1/2 entre líneas
+
+\usepackage[spanish,es-tabla,es-lcroman]{babel}
+
+%	IDIOMAS - RECONOCIMIENTO DE CARACTERES EN ESPAÑOL
+\usepackage[utf8]{inputenc} %reconoce entrada caracteres internacionales - iso-8889-1
+\usepackage[T1]{fontenc} %para salida mejorada caracteres internacionales
+\usepackage{lmodern} %aporta fuentes faltantes en T1
+
+%	PAQUETES PARA FORMATO DEL DOCUMENTO
+\usepackage{graphicx} %para incluir figuras
+\usepackage{float}    %para tablas y figuras flotantes (que entran en una pagina)
+\usepackage{subcaption} %para insertar multiple figuras
+
+\usepackage[hidelinks]{hyperref} %genera hipervínculos a titulos, figuras, ecuaciones
+\hypersetup{         %metadata para PDF
+	colorlinks=false, %set true if you want colored links
+	linktoc=all,      %set to all if you want both sections and subsections linked
+	%linkcolor=blue,  %choose some color if you want links to stand out
+} 
+
+\usepackage{titlesec}  % para eliminar la palabra "Capítulo" de títulos
+\usepackage{framed} % para enmarcar paragrafos
+\usepackage{breakcites} %para cortar referencias muy largas
+
+%	PAQUETES PARA ECUACIONES Y TABLAS
+\usepackage{amsmath} % paquete para escribir ecuaciones matemáticas 
+\usepackage{amssymb} % paquete de simbolos matemáticos
+\usepackage{mathtools} % paquete de mejoras para ecuaciones (amsmath)  
+
+\usepackage[fleqn]{empheq} % subecuaciones enmarcadas
+\usepackage{nccmath} % para alinear ecuaciones aisladas a la izquierda
+
+\usepackage{booktabs} % para lineas de separación en tablas
+\usepackage{siunitx}  % numeros en notación científica y unidades
+
+\usepackage{enumerate} % para hacer listas enumeradas
+
+\usepackage{ifthen}    %paquete para comparaciones lógicas if-then-else
+
+\usepackage{csquotes} % necesario para evitar conflicto con biblatex
+% Carga de estilo APA para la tesis - No modificar
+\usepackage[backend=biber,style=apa,sortcites,natbib=true]{biblatex}
+\input{_settings/apa}
+\addbibresource{Bibliografia/bibliografia.bib} % Ubicación de bibliografia.bib a cargar, no omita la extensión .bib del nombre de archivo.

@@ -1,0 +1,44 @@
+% Template para la Especialización y Maestría en Ingeniería Estructural UTN 
+% Plan de Tesis - Version: 1.0
+% MIT License Copyright (c) 2022 Mihdí Caballero
+%
+\documentclass[12pt,a4paper,oneside]{article}
+
+% ******************************* Preámbulo ********************************
+\input{_settings/preamble}	% Preámbulo con paquetes y comandos definidos por el usuario
+
+\newcommand{\TituloTesis}{Título de la tesis}
+\newcommand{\Dia}{27}
+\newcommand{\Mes}{noviembre}
+\newcommand{\Anio}{2022}
+
+\newcommand{\Tesista}{Nombre Apellido}
+\newcommand{\Director}{Nombre Apellido}
+\newcommand{\Codirector}{Nombre Apellido}
+
+\begin{document}
+
+\include{portada/tapa_plan}
+
+\thispagestyle{plain}
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\newcounter{mypageno}
+\setcounter{mypageno}{\value{page}}%
+
+\tableofcontents \newpage	
+
+\pagenumbering{arabic}
+
+\input{secciones/fundamentacion}
+\input{secciones/estado_del_arte}
+\input{secciones/objetivos}
+\input{secciones/metodologia}
+\input{secciones/cronograma}
+\input{secciones/condiciones}
+
+\printbibliography[heading=bibintoc,title={Bibliográfía}]  % indica incluir en índice
+\nocite{*} % indica incluir en bibliografia referencias no citadas
+
+\end{document}
