@@ -9,45 +9,33 @@
 %
 %%---------------------------------------------------------------------
 
-%titlepage
-\thispagestyle{empty}
+\begin{titlepage}
+\thispagestyle{empty} % No header nor footer
 \begin{center}
-\begin{minipage}{0.75\linewidth}
-    \centering
-%University logo
-    \includegraphics[width=0.8\textwidth]{imagenes/logo.jpg}\par
-
-    \vspace{2cm}
-	{\scshape\Large Maestría en Ingeniería Estructural \par}
-	\vspace{2cm}
-	{\scshape\Large Plan de Tesis \par}
-    \vspace{0.5cm}
-     
-%%---------------------------------------------------------------------
-% Información del título
-%%----------------------------------------------------------------------
-
-{\huge\bfseries \TituloTesis\par}
-
-    \vspace{3cm}
-
-%%---------------------------------------------------------------------
-% Información del autor
-%%----------------------------------------------------------------------
-%Author's name
-    {\LARGE\bfseries \Tesista\par}
-    \vspace{2cm}
-%Degree
-    {\large Director: \Director \par}
-    \ifthenelse {\isundefined{\Codirector}}{}{\large Codirector: \Codirector \par}
-    \vspace{1cm}
-    
-%%---------------------------------------------------------------------
-% Información de fecha de publicación
-%%----------------------------------------------------------------------
-
-{\normalsize \Dia \, \Mes \, \Anio}
-
-\end{minipage}
+	\begin{minipage}{0.75\linewidth}
+		\centering
+		%University logo		
+		\includegraphics[width=0.8\textwidth]{imagenes/logo.jpg} \\[2cm]
+		{\scshape\Large Maestría en Ingeniería Estructural} \\[2cm]
+		{\scshape\Large Plan de Tesis} \\[0.5cm]	     
+		{\huge\bfseries \TituloTesis}
+	\end{minipage}
+\end{center} \vspace{3cm}
+\begin{center}
+	\begin{minipage}{0.75\linewidth}
+		\centering
+		% Author's name
+	    {\LARGE\bfseries \Tesista} \\[2cm]
+		% Degree
+	    {\large Director: \Director}\\
+	    \ifthenelse {\isundefined{\Codirector}}{}{\large Codirector: \Codirector} 
+	\end{minipage}
+\end{center} \vfill
+\begin{center}
+	\begin{minipage}{1\linewidth}	    
+		\centering {\large
+	    Universidad Tecnológica Nacional \\ \Facultad }\\
+		 \Dia \, \Mes \, \Anio
+	\end{minipage}
 \end{center}
-\clearpage
+\end{titlepage}
