@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  13 SEP 2022 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.25)  15 SEP 2022 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,7 +901,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 20
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19
 .
 
 (C:\Users\Mihdi\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -913,24 +913,24 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `plan_de_tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -966,8 +966,8 @@ LaTeX Font Info:    ... okay on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count463
@@ -992,7 +992,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (plan_de_tesis.out) (plan_de_tesis.out)
 \@outlinefile=\write4
@@ -1014,7 +1014,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 20.
+or `spanish'. on input line 19.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 
@@ -1041,16 +1041,16 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'plan_de_tesis.bbl' found.
 
 (plan_de_tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 20.
-Package biblatex Info: Reference segment=0 on input line 20.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
 \openout2 = `portada/tapa_plan.aux'.
 
  (portada/tapa_plan.tex
-<imagenes/logo.jpg, id=30, 612.78937pt x 158.84344pt>
-File: imagenes/logo.jpg Graphic file (type jpg)
-<use imagenes/logo.jpg>
-Package pdftex.def Info: imagenes/logo.jpg  used on input line 7.
-(pdftex.def)             Requested size: 273.14749pt x 70.80266pt.
+<Figuras/logo_maestria.png, id=30, 493.845pt x 110.814pt>
+File: Figuras/logo_maestria.png Graphic file (type png)
+<use Figuras/logo_maestria.png>
+Package pdftex.def Info: Figuras/logo_maestria.png  used on input line 7.
+(pdftex.def)             Requested size: 290.22018pt x 65.12097pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  11.
 
@@ -1090,10 +1090,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [1
 
 
-{C:/Users/Mihdi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imagenes/l
-ogo.jpg>])
+{C:/Users/Mihdi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/lo
+go_maestria.png>])
 \c@mypageno=\count469
-(plan_de_tesis.toc
+ (plan_de_tesis.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1112,7 +1112,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \end{document}
+l.44 \end{document}
                     [1] (plan_de_tesis.aux (portada/tapa_plan.aux)
 LaTeX Info: Redefining \sptext on input line 24.
 LaTeX Info: Redefining \. on input line 24.
@@ -1125,19 +1125,19 @@ Package logreq Info: Writing requests to 'plan_de_tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27168 strings out of 477843
- 525577 string characters out of 2833414
- 1286346 words of memory out of 3000000
- 45709 multiletter control sequences out of 15000+600000
+ 27171 strings out of 477843
+ 525746 string characters out of 2833414
+ 1287400 words of memory out of 3000000
+ 45712 multiletter control sequences out of 15000+600000
  514543 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,80p,1204b,2819s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/time
 s/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on plan_de_tesis.pdf (3 pages, 116732 bytes).
+Output written on plan_de_tesis.pdf (3 pages, 94880 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
