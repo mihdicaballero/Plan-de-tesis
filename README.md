@@ -1,2 +1,4 @@
-# Plan-de-tesis
-Template para la Especialización y Maestría en Ingeniería Estructural UTN
+# Plan de tesis
+Template para la Maestría en Ingeniería Estructural UTN
+
+
